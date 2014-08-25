@@ -33,6 +33,9 @@ build_ubuntu-gnome: build_init
 build_oem-config-ubuntu: build_init
 	cp -rL $(SOURCESLIDES)/oem-config-ubuntu $(BUILD)
 
+build_ubuntu-mate: build_init
+	cp -rL $(SOURCESLIDES)/ubuntu-mate $(BUILD)
+
 translations:
 	python generate-local-slides.py ubuntu
 	python generate-local-slides.py kubuntu
@@ -42,6 +45,7 @@ translations:
 	python generate-local-slides.py ubuntustudio
 	python generate-local-slides.py ubuntu-gnome
 	python generate-local-slides.py oem-config-ubuntu
+	python generate-local-slides.py ubuntu-mate
 
 .PHONY : clean
 

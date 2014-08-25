@@ -1,3 +1,9 @@
+ubiquity-slideshow-ubuntu (85) utopic; urgency=medium
+
+  * Ubuntu MATE : initial release 
+
+ -- jack <jack@jack-VirtualBox>  Mon, 25 Aug 2014 22:29:16 +0200
+
 ubiquity-slideshow-ubuntu (84) utopic; urgency=medium
 
   [ Jackson Doak ]
